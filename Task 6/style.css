@@ -1,113 +1,16 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f8f9fa;
-  }
-  
+#home {
 
-  .navbar {
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  }
-  .navbar-brand {
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-  .nav-link {
-    transition: color 0.3s ease;
-  }
-  .nav-link:hover {
-    color: #ffc107 !important;
-  }
-  
-
-  #home {
-    background: linear-gradient(135deg, #007bff, #0056b3);
-    padding: 100px 20px;
     height: 100vh;
-  }
-  #home h1 {
-    font-size: 3rem;
-    font-weight: bold;
-  }
-  #home .btn {
-    margin-top: 20px;
-    font-weight: 600;
-    transition: transform 0.3s ease;
-  }
-  #home .btn:hover {
-    transform: scale(1.1);
-  }
-  
+    background: linear-gradient(to right, rgb(50, 48, 168), rgb(50, 48, 168));
 
-  #ABOUT {
-    padding: 80px 20px;
-  }
-  #ABOUT img {
-    border: 5px solid #007bff;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  }
-  #ABOUT h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  #ABOUT p {
-    font-size: 1.1rem;
-    color: #555;
-  }
-  
-
-  #skills {
-    background: #f1f1f1;
-    padding: 80px 20px;
-  }
-  #skills h2 {
-    font-weight: bold;
-  }
-  #skills .card {
-    background: #fff;
-    border: none;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-  }
-  #skills .card:hover {
-    transform: translateY(-10px);
-    background: #007bff;
-    color: #fff;
-  }
-  
-
-  #projects {
-    background: #fff;
-  }
-  #projects h2 {
-    font-weight: bold;
-  }
-  #projects .card {
-    border: none;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-  }
-  #projects .card:hover {
-    transform: scale(1.05);
-  }
-  #projects .card-title {
-    font-weight: bold;
-  }
-  
-
-  #contact {
-    background: #212529;
-  }
-  #contact h2 {
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  #contact p {
-    font-size: 1.1rem;
-  }
-  
-
-  footer {
-    background: #343a40;
-    font-size: 0.9rem;
-  }
+    .container{
+        top: 30%;
+        position: absolute;
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+    }
+}
+#skills{
+    margin-top: 70px;
+}
